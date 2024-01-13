@@ -6,10 +6,10 @@ from bs4 import BeautifulSoup
 import json
 import asyncio
 
-TOKEN = 'MTE4OTUxMTQxNzI4NDU0NjYwMQ.GwXd9n.1B-Q9CGr9z80V5f9KmsWTxJ01QL7NquyZicsxI'
+TOKEN = 'ur token'
 intents = discord.Intents.all()
 
-bot = commands.Bot(command_prefix='!', intents=intents)
+bot = commands.Bot(command_prefix='ur prefix', intents=intents)
 
 user_tracked_players = {}
 
